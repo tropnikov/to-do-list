@@ -30,15 +30,15 @@
 }
 
 .input-container {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
   min-width: 80%;
-  padding: 20px 0 20px;
-  min-height: 30px;
+  /*padding: 20px 0 20px;*/
+  /*min-height: 30px;*/
 }
 
 .add-task-input {
-  min-width: 76%;
+  min-width: 75%;
   border: none;
   border-bottom: 2px solid #2255a7;
   padding: 4px;
@@ -46,8 +46,8 @@
 }
 
 .add-task-btn {
-  min-height: 30px;
-  width: 20%;
+  min-height: 35px;
+  width: 22%;
   border: none;
   background-color: #c3b9da;
   color: white;
@@ -98,4 +98,18 @@ input[type="checkbox"] {
   font-size: 24px;
   text-align: left;
   width: calc(100% - 70px);
+}
+
+.add-task-form {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  min-width: 80%;
+  padding: 20px 0 20px;
+  min-height: 30px;
+}
+
+.hover:hover {
+  cursor: pointer;
 }

@@ -9,24 +9,48 @@
   <body class="page">
     <div class="page__container">
       <h1 class="page__title">To-Do List</h1>
+
       <div class="input-container">
-        <input type="text" id="input-task" class="add-task-input" />
-        <button id="add-task-button" class="add-task-btn">Add task</button>
+        <form action="#" class="form add-task-form" name="add-task-form">
+          <input
+            type="text"
+            id="input-task"
+            class="add-task-input"
+            placeholder="Add your next task..."
+          />
+          <button id="add-task-button" class="add-task-btn hover" type="submit">
+            Add task
+          </button>
+        </form>
       </div>
+
       <ul id="task-list" class="task-list">
         <li class="task-list__item">
-          <input type="checkbox" /> <span class="task">Email Maria</span
-          ><button class="delete-btn"></button>
+          <input type="checkbox" class="hover" />
+          <span class="task">Email Maria</span
+          ><button class="delete-btn hover"></button>
         </li>
+
         <li class="task-list__item">
-          <input type="checkbox" /> <span class="task">Write To-Do List</span
-          ><button class="delete-btn"></button>
+          <input type="checkbox" class="hover" />
+          <span class="task">Write To-Do List</span
+          ><button class="delete-btn hover"></button>
         </li>
+
         <li class="task-list__item">
-          <input type="checkbox" /> <span class="task">Call Nikita</span
-          ><button class="delete-btn"></button>
+          <input type="checkbox" class="hover" />
+          <span class="task">Call Nikita</span
+          ><button class="delete-btn hover"></button>
         </li>
       </ul>
     </div>
+
+    <template class="task-template">
+      <li class="task-list__item">
+        <input type="checkbox" class="hover" /> <span class="task"></span
+        ><button class="delete-btn hover"></button>
+      </li>
+    </template>
+    <script src="index.js"></script>
   </body>
 </html>
