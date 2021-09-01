@@ -11,7 +11,12 @@
       <h1 class="page__title">To-Do List</h1>
 
       <div class="input-container">
-        <form action="#" class="form add-task-form" name="add-task-form">
+        <form
+          action="#"
+          class="form add-task-form"
+          name="add-task-form"
+          autocomplete="off"
+        >
           <input
             type="text"
             id="input-task"
@@ -24,25 +29,7 @@
         </form>
       </div>
 
-      <ul id="task-list" class="task-list">
-        <li class="task-list__item">
-          <input type="checkbox" class="hover" />
-          <span class="task">Email Maria</span>
-          <button class="delete-btn hover"></button>
-        </li>
-
-        <li class="task-list__item">
-          <input type="checkbox" class="hover" />
-          <span class="task">Write To-Do List</span>
-          <button class="delete-btn hover"></button>
-        </li>
-
-        <li class="task-list__item">
-          <input type="checkbox" class="hover" />
-          <span class="task">Call Nikita</span>
-          <button class="delete-btn hover"></button>
-        </li>
-      </ul>
+      <ul id="task-list" class="task-list"></ul>
     </div>
 
     <template class="task-template">

@@ -84,7 +84,6 @@
   background-size: cover;
   width: 25px;
   height: 25px;
-  /* height: 100%; */
 }
 
 input[type="checkbox"] {
@@ -114,6 +113,9 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-input[type="checkbox"]:checked + .task {
+.completed {
   text-decoration: line-through;
 }
+/* input[type="checkbox"]:checked + .task {
+  text-decoration: line-through;
+} */
