@@ -4,12 +4,6 @@
 .page {
   margin: 0;
   padding: 10% 0 0;
-  /* display: flex; */
-  /* align-content: center; */
-
-  /* flex-direction: column; */
-  /* justify-con=tent: center; */
-  /* align-items: center; */
 }
 
 .page__container {
@@ -30,11 +24,7 @@
 }
 
 .input-container {
-  /*display: flex;*/
-  /*justify-content: space-between;*/
   min-width: 80%;
-  /*padding: 20px 0 20px;*/
-  /*min-height: 30px;*/
 }
 
 .add-task-input {
@@ -116,6 +106,3 @@ input[type="checkbox"] {
 .completed {
   text-decoration: line-through;
 }
-/* input[type="checkbox"]:checked + .task {
-  text-decoration: line-through;
-} */
