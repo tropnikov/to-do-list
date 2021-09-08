@@ -70,7 +70,7 @@
 .delete-btn {
   border: none;
   background-color: transparent;
-  background-image: url("./remove.svg");
+  background-image: url("../images/remove.svg");
   background-size: cover;
   width: 25px;
   height: 25px;
