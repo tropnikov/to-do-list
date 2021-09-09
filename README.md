@@ -12,8 +12,12 @@ You can add tasks, mark them as completed and delete them. Tasks are saved in lo
   
 ## Demo:  
 
-Saves your to-dos in localStorage.
-[https://tropnikov.github.io/to-do-list/](https://tropnikov.github.io/to-do-list/)
+Github Pages (saves your to-dos in localStorage):
+[https://tropnikov.github.io/to-do-list/](https://tropnikov.github.io/to-do-list/)  
+
+Example of work:
+
+<img src='demo.gif' alt="demo of to-do list" width="600px">  
 
 ## Plans
 - Check markup for mobile devices
